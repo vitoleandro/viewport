@@ -1,0 +1,35 @@
+/*====================================================
+*
+*   View Port Studies
+*   @author: Leandro Vitor
+*
+====================================================*/
+
+* { margin: 0; padding: 0; }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  background: url(https://hd.unsplash.com/photo-1446770145316-10a05382c470);
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+h1,
+h4 { text-shadow: 0 0 10px rgba(0,0,0,0.3); }
+
+p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
